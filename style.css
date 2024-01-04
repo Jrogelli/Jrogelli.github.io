@@ -36,7 +36,7 @@ nav a{
  
 /* header */
 header{
-    background-image: url('../image/img001.jpg');
+    background-image: url('./image/img001.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
