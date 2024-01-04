@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+  h1{
+    
+    font-family: 'Archivo Black', sans-serif;
+  }
+
+  *{
+    font-family: 'Poppins',sans-serif;
+  }
+
+ /* nav */
+ .navbar-brand{
+font-size: 3em !important;
+ } 
+nav a{
+    color: #ffffff !important;
+}
+
+ .navbar-toggler{
+    border: none !important;
+}
+
+.navbar-color{
+    background-color: rgba(0, 0,0, 0);
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+ 
+#nosotros{
+    background-color: #EFF2F7;
+}
+ 
+/* header */
+header{
+    background-image: url('../Images/img001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+.overlay-color{
+    min-height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* buttons */
+.btn-custom{
+    background-color:#0077B6;
+    border-radius: 0% ;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border: 0;
+    text-decoration: none;
+    margin: 30px 0;
+}
+
+.btn-custom:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
